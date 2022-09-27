@@ -1,0 +1,391 @@
+body{
+   
+    font-family: Brandon Text,Arial,sans-serif;
+}
+
+ 
+#big-cont{
+   width:96%;
+   margin:auto;
+   
+}
+ 
+.product-container{
+ 
+    display:flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    align-items: center;
+ 
+    margin: auto;
+   
+    
+ 
+ }
+ .product-container::-webkit-scrollbar{
+     display:none; 
+ }
+ .product-card{
+    flex:0 0 auto;
+    width:160px;
+    height:auto;
+   margin-right: 7px;
+   cursor: pointer;
+  
+   
+   
+   
+ }
+ .xyz{
+   margin-top: 70px;
+ }
+ .product-img{
+    position: relative;
+    width:100%;
+    height:100%;
+    overflow:hidden;
+  
+   
+ 
+ }
+ 
+  
+ .pre-btn{
+   position: absolute;
+   display: block;
+    left: 10;
+    justify-content: center;
+    z-index:10;
+    cursor:pointer;
+    font-size: 25px;
+ 
+  
+    color: black;
+     
+ }
+ .nxt-btn{
+    right:30px;
+    position:absolute;
+    display:block;
+    z-index:10;
+    cursor:pointer;
+     justify-content: center;
+  font-size: 25px;
+  
+    color: black;
+ 
+ }
+ 
+ img{
+    width:100%;
+ }
+
+  
+
+ #sub{
+    color: black;
+ }
+ .class{
+   margin-top:30px;
+   height:auto;
+ 
+   border:2px solid black;
+   text-align:center;
+   background-color: rgb(243, 243, 232);
+}
+ 
+  #img1{
+   width: 100%;
+
+   display: block;
+  }
+  p{font-size: 13px;
+
+font-family: Brandon Text,Arial,sans-serif;
+}
+#box2{
+   height: 55px;
+   width:68%;
+   /* border: 1px solid black; */
+   margin: auto;
+   text-align: center;
+   display: flex;
+    justify-content: space-between;
+  
+}
+button{
+   
+   font-family: Brandon Text,Arial,sans-serif;
+   font-weight: 400;
+   height:50px;
+   color:black;
+   
+}
+#img{
+   width: 100%;
+   margin-top:40px;
+}
+#img2{
+ 
+   margin-top:50px;
+   height: 200px;
+   
+   border: 2px black solid;
+   
+}
+
+
+
+
+.slider{
+   position:relative;
+ 
+   min-height:500px;
+   margin:20px;
+   overflow: hidden;
+   
+  }
+  .slider .slide{
+   position: absolute;
+   width: 100%;
+   height:100%;
+   clip-path: circle(0.7% at 0 50%);
+   /* object-fit:cover; */
+
+  }
+.slider .slide img{
+   position: absolute;
+width: 100%;
+height: 100%;
+object-fit: cover;
+}
+
+.slider .slide .info{
+   position: absolute;
+   width:100%;
+   margin-top:200px;
+   margin-left:900px;
+        }
+.slider .slide .info p{
+margin-top: 10px;
+}
+
+.navigation{
+height:500px;
+display:flex;
+align-items: center;
+justify-content: space-between;
+opacity: 0;
+transition: opacity 0.5s ease;
+}
+
+.slider:hover .navigation{
+
+opacity:1;
+}
+
+.prev-btn,.next-btn{
+z-index:999;
+font-size:3em;
+background-color: aliceblue;
+padding:5px;
+cursor: pointer;
+}
+.navigation-visibility{
+z-index: 999;
+display: flex;
+justify-content: center;
+}
+.navigation-visibility .slide-icon{
+
+z-index: 999;
+background: rgb(56, 50, 50);
+width:20px;
+height: 10px;
+transform: translateY(-50px);
+margin:0 6px;
+border-radius: 2px;
+box-shadow: 0 5px 25px rbg(1 1 1 /20%);
+}
+
+.navigation-visibility .slide-icon.active{
+background: rgb(240, 236, 236);
+
+}
+
+
+
+
+@media(max-width: 900px){
+
+ .slider{
+  width:100%;
+ }
+}
+      
+.slider .slide.active{
+
+clip-path: circle(150% at 0 50%);
+
+}
+
+
+
+
+.headline{width:97%;
+   height:230px ;
+   margin: auto;
+   text-align: center;
+   font-family: "Brandon Text", Arial, sans-serif;
+   color: rgb(57, 57, 57); }
+
+.headline>h2{font-size: 20px;}
+
+.headline>p{color: #000;
+  line-height: 1.4;
+  font-size: 14px;}
+
+.headline2{width:97%;
+   height:auto ;
+   margin: auto;
+   margin-top: 20px;
+   text-align: center;
+   color: rgb(57, 57, 57);
+   font-family: Brandon Text,Arial,sans-serif;}
+
+.headline2>p{color: #000;
+  line-height: 1.4;
+  font-size: 14px;}
+
+.headline2>h2{font-size: 20px;}
+#threadcards{width:97%;
+   height: 600px; 
+   margin: auto;
+   display: flex;
+   justify-content: space-between;
+   color: rgb(57, 57, 57);
+   font-family: Brandon Text,Arial,sans-serif;}
+#threadcards>div{height: 100%;
+         width: 33%;}
+
+#threadcards>div>a{color: #000;
+              font-family: Brandon Text,Arial,sans-serif;
+               font-size: 14px; }
+img{width: 100%;}
+
+hr{height: 2px;
+background-color: #000;
+margin-bottom: 20px;
+margin-top: 50px;}
+
+.productcard{width:97%;
+      height:auto ;
+      margin: auto;
+      display: flex;
+      justify-content: space-between;
+      font-family: Brandon Text,Arial,sans-serif;
+      color: rgb(57, 57, 57);}
+.productcard>div{width: 18%;
+            height: 100%;
+            line-height: 2px;
+            position: relative;}
+
+.productcard>div>p{font-weight: 400;
+              font-size: 13.5px;}
+.productcard>div>h4{ font-size: 13px;}
+
+.producthead{width: 97%;
+        height: 100px;
+        margin: auto;
+        margin-top: 20px;
+        color: rgb(57, 57, 57);
+        font-family: "Brandon Text", Arial, sans-serif;
+       }
+
+.producthead>p{font-size: 14px;
+          color: rgb(57, 57, 57);
+          margin-top: -15px;}
+
+.shopcard{width: 97%;
+     height: 600px;
+     margin: auto;}
+.shophead{width: 100%;
+     height: 100px;
+     }
+.popular{height: 20px;
+position: absolute;
+ top: 0;
+ padding: 360px 0px 0px 5px;
+  }
+.popular>h4{background-color:wheat;
+    line-height: 15px;
+font-family: "Brandon Text", Arial, sans-serif;
+font-size: 12px;}
+.red{color: rgb(183, 6, 6);}
+
+.shop_by_cat{width:97%;
+      height:380px ;
+      margin: auto;
+      display: flex;
+      justify-content: space-between;
+      font-family: Brandon Text,Arial,sans-serif;
+      text-align: center;}
+.shop_by_cat>div{width: 25%;
+          height: 100%;}
+.shop{width: 25%}
+
+
+.today{width: 100%;
+ height: auto;
+ margin: auto;
+ display: flex;
+margin-top:50px;
+
+}
+.today>div{width: 50%;
+     height: 100%;
+   }
+ 
+.diz{
+width: 100%;
+height: 500px;
+display: flex;
+ 
+font-family: "Brandon Text", Arial, sans-serif;
+margin-top: 50px;
+ 
+
+}
+
+.diz div:nth-child(1){
+   background-color: rgb(250, 63, 38);
+   width: 50%;
+  
+ 
+   text-align: center;
+   align-items: center;
+   color:white;
+}
+ 
+ .x{
+   margin-top:230px;
+ }
+ .y{
+   margin-left: 20px;
+   margin-top: 130px;
+ }
+ .z{
+   margin-left:20px;
+ }
+ 
+ 
+ .comming-soon{
+   height: auto;
+   margin: auto;
+   margin-bottom: 10px;
+   margin-top: 15px;}
+
+video{width: 100%;
+height: auto}
+
+

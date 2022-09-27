@@ -1,0 +1,128 @@
+  
+#container1 {
+    margin: auto;
+    position: relative;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 25%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    
+}
+#userDataForm > input {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px;
+    margin-top: -14px;
+}
+p, a {
+    color: grey;
+}
+#showPs {
+    font-size: 12px;
+    color: grey;
+    position: absolute;
+    text-decoration: underline;
+    right: 15px;
+    cursor: pointer;
+}
+#userDataForm > p {
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+#userDataForm > #showPs {
+    color: grey;
+}
+#submit {
+    width: 100%;
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+}
+.commonDiv {
+    height: 30px;
+    display: flex;
+    margin-top: 10px;
+}
+.commonDiv > div > p {
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.commonDiv+p {
+    margin-top: 20px;
+}
+#container1 img {
+    height: 100%;
+}
+#showEmail {
+    margin-top: -30px;
+    display: flex;
+    justify-content: space-between;
+}
+#showEmail > div:nth-child(2) {
+    margin-top: 15px;
+}
+.commonDiv + p span  {
+    color: red;
+}
+#userDataForm span {
+    color: red;
+}
+p + h5 {
+    margin-top: 10px;
+}
+/* footer start */
+#footer{
+    display: grid;
+    grid-template-columns: repeat(6,16%);
+    color: rgb(73, 73, 73);
+    margin-top: 100px;
+    justify-content: center;
+    font-family: sans-serif;
+    background-color: #FBF8F1;
+}
+#footer p{
+    font-size: 14px;
+}
+.FH{
+    color: black;
+}
+#lastLine {
+    padding: 2%;
+    background-color: #FBF8F1;
+}
+#lastLine > span {
+    margin-right: 40px;
+    font-size: 13px;
+    color: grey;
+}
+#lastLine span:hover {
+    text-decoration: underline 2px;
+}
+#footer>div p:hover {
+    text-decoration: underline 2px;
+}
+#smDiv {
+    display: flex;
+    flex-direction: column;
+}
+#smDiv > div:nth-child(1){
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#smDiv > div:nth-child(1) img {
+    height: 25px;
+
+}
+#smDiv > div:nth-child(2) img {
+    height: 25px;
+    margin: 5px;
+    
+}
+#smDiv > div:nth-child(2) img:nth-child(5) {
+    height: 20px;
+    margin-bottom: 10px;
+}

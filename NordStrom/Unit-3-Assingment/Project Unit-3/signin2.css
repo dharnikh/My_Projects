@@ -1,0 +1,208 @@
+#navContainer {
+    width: 95%;
+    margin: auto;
+    
+}
+#navContainer a {
+    text-decoration: none;
+    color: black;
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+#uper {
+    background-color: black;
+    width: 100%;
+    height: 40px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#uper > p {
+    margin-right: 5%;
+    color: white;
+}
+#headnav {
+    box-sizing: border-box;
+    margin-top: 1%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#headnav>input {
+    height: 45px;
+    margin-top: -5px;
+    width: 60%;
+    margin-right: -18%;
+}
+#cartlogo{
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../images/shopping-bag.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#cartlogo > a {
+    margin-top: 10px;
+}
+#headnav>img {
+    height: 42px;
+}
+
+#headnav>p {
+    margin-left: 250px;
+}
+
+#nav {
+    display: flex;
+    justify-content: space-around;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+#nav a {
+    text-decoration: none;
+    color: rgb(65, 65, 65);
+}
+
+#nav p:hover {
+    text-decoration: underline 2px;
+}
+
+/* navbar end */
+
+* {
+    font-family: century-gothic, sans-serif;
+    
+}
+#container  p {
+    color: grey;
+    font-size: 14px;
+    
+}
+#container {
+    margin: auto;
+    margin-top: 50px;
+    width: 25%;
+    height: auto;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+/* #imgDiv {
+    display: flex;
+    width: 100%;
+    height: 26px;
+    box-sizing: border-box;
+}
+#imgDiv > div > img {
+    height: 100%;
+    margin-right: 40px;
+} */
+#showEmail {
+    margin-top: -30px;
+    display: flex;
+    justify-content: space-between;
+}
+#showEmail > div:nth-child(2) {
+    margin-top: 15px;
+}
+#container input {
+    padding: 10px;
+    
+    margin-top: -14px;
+    }
+#showPs {
+    font-size: 12px;
+    position: absolute;
+    text-decoration: underline;
+    right: 15px;
+    top: 63%;
+    cursor: pointer;
+}
+#checkbox{
+    margin-bottom: 30px;
+    color: grey;
+    font-size: 14px;
+    
+}
+#signinBtn {
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+}
+#container a {
+    color: grey;
+    font-size: 14px;
+}
+#container h2 {
+    margin-bottom: 15px;
+}
+
+/* footer start */
+#footer{
+    display: grid;
+    grid-template-columns: repeat(6,16%);
+    color: rgb(73, 73, 73);
+    margin-top: 100px;
+    justify-content: center;
+    font-family: sans-serif;
+    background-color: #FBF8F1;
+}
+#footer p{
+    font-size: 14px;
+}
+#footer a {
+    text-decoration: none;
+    color: black;
+}
+.FH{
+    color: black;
+}
+#lastLine {
+    padding: 2%;
+    background-color: #FBF8F1;
+}
+#lastLine > span {
+    margin-right: 40px;
+    font-size: 13px;
+    color: grey;
+}
+#lastLine span:hover {
+    text-decoration: underline 2px;
+}
+#footer>div p:hover {
+    text-decoration: underline 2px;
+}
+#smDiv {
+    display: flex;
+    flex-direction: column;
+}
+#smDiv > div:nth-child(1){
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#smDiv > div:nth-child(1) img {
+    height: 25px;
+
+}
+#smDiv > div:nth-child(2) img {
+    height: 25px;
+    margin: 5px;
+    
+}
+#smDiv > div:nth-child(2) img:nth-child(5) {
+    height: 20px;
+    margin-bottom: 10px;
+}
+
